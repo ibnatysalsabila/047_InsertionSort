@@ -47,13 +47,6 @@ void display() {
 }
 
 
-
-
-
-
-
-
-
 void insertionSort() {
     int i, n, temp, j;
     int arr[9];
@@ -73,4 +66,11 @@ void insertionSort() {
    
 }
 
-int main();
+int main()
+{
+    input();
+    insertionSort();
+    display();
+
+    return 0;
+}
